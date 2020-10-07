@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <test name="ChromeTest(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.facebook.com/"/>
+    <classes>
+      <class name="Test.Test2">
+        <methods>
+          <include name="endReport"/>
+          <include name="tc05"/>
+          <include name="startReport"/>
+          <include name="LaunchBrowser"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- Test.Test2 -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
